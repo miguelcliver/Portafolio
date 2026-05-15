@@ -1,6 +1,6 @@
 # Portafolio
 
-Es una plataforma web visual e interactiva diseñada para exhibir proyectos audiovisuales y atraer clientes potenciales.
+Es una plataforma web visual e interactiva diseñada para exhibir proyectos audiovisuales y atraer clientes potenciales .
 
 ## Creating a project
 

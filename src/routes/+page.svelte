@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<section>
+    <p>Visual storytelle</p>
+    <div>
+        <p>Established in los angeles
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, possimus recusandae? Maxime ab necessitatibus, veritatis qui distinctio sapiente praesentium nemo accusantium asperiores, magnam consequatur quidem perspiciatis sunt commodi voluptate consectetur.</p>
+    </div>
+</section>

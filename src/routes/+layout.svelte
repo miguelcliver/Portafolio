@@ -6,4 +6,19 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
+
+<nav>
+	<p>The frame</p>
+
+	<div>
+	<a href="/">menu</a>
+	<a href="/word">Work</a>
+	</div>
+<a href="/contact">
+<button>Contacto</button>
+</a>
+</nav>
+
 {@render children()}
+
+footer

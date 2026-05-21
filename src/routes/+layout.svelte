@@ -9,7 +9,6 @@
 
 <nav>
 	<p>The frame</p>
-
 	<div>
 	<a href="/">menu</a>
 	<a href="/word">Work</a>

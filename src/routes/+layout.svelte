@@ -8,10 +8,10 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <nav>
-  <p>The frame</p>
+  <p>MIKE EDITOR</p>
   <div>
     <a href="/">menu</a>
-    <a href="/word">Work</a>
+    <a href="/word">Portafolio</a>
   </div>
   <a href="/contact">
     <button>Contacto</button>
@@ -22,7 +22,7 @@
 
 <footer>
   <div>
-    <img src="" alt="" />
+    <p>MIKE EDITOR</p>
     <p>Todos los derechos reservados</p>
   </div>
   <div>

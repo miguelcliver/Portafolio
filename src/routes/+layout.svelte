@@ -1,6 +1,7 @@
 <script lang="ts">
   import "./layout.css";
   import favicon from "$lib/assets/favicon.svg";
+  import Icon from "@iconify/svelte";
 
   let { children } = $props();
 </script>
@@ -26,7 +27,7 @@
     <p>Todos los derechos reservados</p>
   </div>
   <div>
-    <a href="https://www.instagram.com/?hl=es">instagram</a>
+    <a href="https://www.instagram.com/?hl=es"><Icon icon="skill-icons:instagram" /></a>
     <a href="https://vimeo.com/es">vimeo</a>
     <a href="https://ve.linkedin.com/">linkedin</a>
   </div>

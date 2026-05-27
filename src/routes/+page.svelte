@@ -1,5 +1,7 @@
 <script>
+  import Software from "$lib/components/Software.svelte";
   import Tarjetadehabilidades from "$lib/components/Tarjetadehabilidades.svelte";
+  import Icon from "@iconify/svelte";
 </script>
 
 <section>
@@ -66,5 +68,39 @@
       titulo="Gestión del tiempo y cumplimiento de plazos"
       descripcion="Gestiono cada proyecto con máxima organización, garantizando un flujo de trabajo eficiente que asegura la entrega puntual de tus videos. Mi compromiso con los plazos de entrega te permite planificar tus campañas con total tranquilidad, sin comprometer jamás la calidad final del material.."
     />
+  </div>
+</section>
+
+<section>
+  <div>
+    <p>SOFTWARE</p>
+    <p>
+      Domino absoluto de las herramientas estandar que definen el cine
+      contemporaneo
+    </p>
+  </div>
+  <div>
+    <Software numero="01" texto="PREMIERE PRO" />
+    <Software numero="02" texto="CAPCUT PRO" />
+    <Software numero="03" texto="AFTER EFFECTS" />
+    <Software numero="04" texto="DAVINCI RESOLVE" />
+  </div>
+</section>
+
+<section>
+  <div>
+    <p>Trabajos relacionados</p>
+    <img src="/original.webp" alt="" />
+  </div>
+
+  <div>
+    <a href="/work">ver archivo completo</a>
+    <div>
+      <p>Ritmo cinematico</p>
+      <p>una exploracion de movimientos y magia</p>
+      <button>
+        <Icon icon="mdi:play" width={32} height={32}/>
+      </button>
+    </div>
   </div>
 </section>

@@ -12,7 +12,7 @@
   <p>MIKE EDITOR</p>
   <div>
     <a href="/">menu</a>
-    <a href="/word">Portafolio</a>
+    <a href="/work">Portafolio</a>
   </div>
   <a href="/contact">
     <button>Contacto</button>

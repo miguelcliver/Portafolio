@@ -82,8 +82,6 @@
   <div>
     <Software numero="01" texto="PREMIERE PRO" />
     <Software numero="02" texto="CAPCUT PRO" />
-    <Software numero="03" texto="AFTER EFFECTS" />
-    <Software numero="04" texto="DAVINCI RESOLVE" />
   </div>
 </section>
 

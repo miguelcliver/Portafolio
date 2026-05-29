@@ -4,15 +4,17 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<section>
-  <p>Editor de video profesional</p>
-  <div>
-    <p>Michael Montañez</p>
-    <p>
-      Hola, soy Michael. Ayudo a empresas a comunicar sus ideas con videos
-      claros, atractivos y de alta calidad. Si buscas un trabajo profesional,
-      puntual y adaptado a tus metas, hagamos equipo en tu próximo proyecto.
-    </p>
+<section class="px-9 py-8">
+  <p class="text-8xl font-extrabold uppercase">Editor de video profesional</p>
+  <div class="flex justify-end">
+    <div>
+      <p class="text-[#00E1AB] pb-4">Michael Montañez</p>
+      <p class="max-w-xl text-neutral-200">
+        Hola, soy Michael. Ayudo a empresas a comunicar sus ideas con videos
+        claros, atractivos y de alta calidad. Si buscas un trabajo profesional,
+        puntual y adaptado a tus metas, hagamos equipo en tu próximo proyecto.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -97,7 +99,7 @@
       <p>Ritmo cinematico</p>
       <p>una exploracion de movimientos y magia</p>
       <button>
-        <Icon icon="mdi:play" width={32} height={32}/>
+        <Icon icon="mdi:play" width={32} height={32} />
       </button>
     </div>
   </div>

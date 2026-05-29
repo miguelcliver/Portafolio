@@ -4,7 +4,7 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<section class="px-9 py-8">
+<section class="px-9 py-8 border border-neutral-600/60">
   <p class="text-8xl font-extrabold uppercase">Editor de video profesional</p>
   <div class="flex justify-end">
     <div>

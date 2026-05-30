@@ -4,7 +4,7 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<section class="px-9 py-8 border border-neutral-600/60">
+<section class="px-9 py-8 border border-neutral-600/40">
   <p class="text-8xl font-extrabold uppercase">Editor de video profesional</p>
   <div class="flex justify-end">
     <div>
@@ -18,11 +18,10 @@
   </div>
 </section>
 
-<section class="px-9 py-8 border border-neutral-600/60 flex justify-around">
+<section class="px-9 py-8 border border-neutral-600/40 flex justify-around">
   <div class=" ">
     <p class="text-5xl uppercase font-semibold flex-1">Mi historia</p>
-      <img src="/mi-historia.jpeg" alt="foto" width="500" height="500" />
-    
+    <img src="/mi-historia.jpeg" alt="foto" width="500" height="500" />
   </div>
   <div>
     <div class="">

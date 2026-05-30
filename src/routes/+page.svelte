@@ -18,20 +18,24 @@
   </div>
 </section>
 
-<section>
-  <div>
-    <p>Mi historia</p>
+<section class="px-9 py-8 border border-neutral-600/60 flex justify-around">
+  <div class=" ">
+    <p class="text-5xl uppercase font-semibold flex-1">Mi historia</p>
+      <img src="/mi-historia.jpeg" alt="foto" width="500" height="500" />
+    
   </div>
   <div>
-    <p>
-      Empece en el mundo de edicion por curiosidad y por querer aprender algo
-      nuevo, percatándome de que es algo q me gusta, empecé a realizar trabajos
-      pequeños y ya hace aproximadamente 2 años y 7 meses trabajando
-      profesionalmente.
-    </p>
-    <div>
+    <div class="">
+      <p class="max-w-lg">
+        Empece en el mundo de edicion por curiosidad y por querer aprender algo
+        nuevo, percatándome de que es algo q me gusta, empecé a realizar
+        trabajos pequeños y ya hace aproximadamente 2 años y 7 meses trabajando
+        profesionalmente.
+      </p>
+    </div>
+    <div class="">
       <div>
-        <p>2014-2018</p>
+        <p class="max-w-lg">2014-2018</p>
         <p>inicios en montaje documental y colorimetrica basica</p>
       </div>
       <div>

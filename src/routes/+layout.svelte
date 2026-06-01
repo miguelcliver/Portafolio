@@ -9,13 +9,14 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <nav class="flex justify-between items-center px-12 py-4">
-  <p class="text-2xl font-bold ">MIKE EDITOR</p>
-  <div class="flex gap-3 text-neutral-300">
-    <a href="/">Home</a>
-    <a href="/work">Portafolio</a>
+  <p class="text-xl font-black tracking-wider text-white">MIKE <span class="bg-linear-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">EDITOR</span></p>
+
+  <div class="flex items-center gap-8 bg-white/3 px-6 py-2.5 rounded-full border border-white/10 backdrop-blur-xl">
+    <a href="/" class="relative py-1 text-sm font-medium text-neutral-300 hover:text-white transition-colors group">Home<span class="absolute bottom-0 left-0 w-0 h-[1.5px] bg-blue-400 transition-all duration-300 group-hover:w-full"></span></a>
+    <a href="/work" class="relative py-1 text-sm font-medium text-neutral-300 hover:text-white transition-colors group">Portafolio<span class="absolute bottom-0 left-0 w-0 h-[1.5px] bg-blue-400 transition-all duration-300 group-hover:w-full"></span></a>
   </div>
-  <a href="/contact">
-    <button class="font-bold px-6 py-1.5 text-white border-2 border-white ">Contacto</button>
+  <a href="/contacto" class="relative inline-flex items-center justify-center px-6 py-2.5 text-sm font-semibold text-white bg-linear-to-r from-blue-600 to-indigo-600 rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(59,130,246,0.4)] active:scale-95">
+    Contacto
   </a>
 </nav>
 

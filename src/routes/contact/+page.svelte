@@ -1,3 +1,9 @@
 <section>
-    <p>let build something</p>
+    <p>Proyectos que transcienden</p>
+</section>
+
+<section>
+    <div>
+        <p>Hablemos de tu vision</p>
+    </div>
 </section>

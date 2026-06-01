@@ -5,10 +5,11 @@
 </script>
 
 <section class="px-9 py-8 border border-neutral-600/40">
-  <p class="text-8xl font-extrabold uppercase">Editor de video profesional</p>
+  <p class="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tight text-white leading-none text-left">Editor de video <br><span class="bg-linear-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent">Profesional</span></p>
+
   <div class="flex justify-end">
     <div>
-      <p class="text-[#00E1AB] pb-4">Michael Montañez</p>
+      <p class="text-blue-400 pb-4">Michael Montañez</p>
       <p class="max-w-xl text-neutral-200">
         Hola, soy Michael. Ayudo a empresas a comunicar sus ideas con videos
         claros, atractivos y de alta calidad. Si buscas un trabajo profesional,
@@ -18,10 +19,17 @@
   </div>
 </section>
 
-<section class="px-9 py-8 border border-neutral-600/40 flex justify-around">
-  <div class=" ">
-    <p class="text-5xl uppercase font-semibold flex-1">Mi historia</p>
-    <img src="/mi-historia.jpeg" alt="foto" width="500" height="500" />
+<section class="w-full min-h-screen flex items-center px-6 md:px-12 py-20 bg-transparent text-white">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center w-full max-w-7xl mx-auto ">
+  <div class="lg:col-span-5 flex flex-col space-y-6">
+    <p class="text-3xl md:text-5xl font-black uppercase tracking-wider text-white">
+      Mi <span class="bg-linear-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">Historia</span>
+    </p>
+    <div class="elative group p-3 bg-white/2 border border-white/10 rounded-2xl backdrop-blur-md shadow-2xl overflow-hidden">
+      <div class="absolute inset-0 bg-linear-to-tr from-blue-500/10 to-indigo-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+    <img  src="/mi-historia.jpeg" alt="foto" width="500" height="500"  />
+    </div>
+  </div>
   </div>
   <div>
     <div class="">

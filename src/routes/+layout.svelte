@@ -24,10 +24,10 @@
 
 <footer class="flex justify-between items-center px-12 py-3">
   <div>
-    <p class="text-2xl font-bold">MIKE EDITOR</p>
-    <p class="text-neutral-300">©MIKE EDITOR.Todos los derechos reservados.</p>
+    <p class="text-white font-bold text-lg tracking-wide uppercase">MIKE EDITOR</p>
+    <p class="text-xs text-neutral-500 font-medium">©MIKE EDITOR.Todos los derechos reservados.</p>
   </div>
-  <div class="flex gap-5">
+  <div class="flex items-center gap-4 bg-neutral-900/40 p-2 px-4 border border-neutral-800/40 rounded-full backdrop-blur-sm shadow-inner group">
     <a href="https://www.instagram.com/?hl=es"
       ><Icon icon="skill-icons:instagram" width={32} height={32} /></a
     >
@@ -39,7 +39,7 @@
     >
   </div>
   <div>
-    <p class="text-[#00E1AB]">estado disponible</p>
+    <p class="text-blue-400">estado disponible</p>
     <p>work@thefame.pro</p>
   </div>
 </footer>

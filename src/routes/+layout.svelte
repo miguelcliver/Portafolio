@@ -15,7 +15,7 @@
     <a href="/" class="relative py-1 text-sm font-medium text-neutral-300 hover:text-white transition-colors group">Home<span class="absolute bottom-0 left-0 w-0 h-[1.5px] bg-blue-400 transition-all duration-300 group-hover:w-full"></span></a>
     <a href="/work" class="relative py-1 text-sm font-medium text-neutral-300 hover:text-white transition-colors group">Portafolio<span class="absolute bottom-0 left-0 w-0 h-[1.5px] bg-blue-400 transition-all duration-300 group-hover:w-full"></span></a>
   </div>
-  <a href="/contacto" class="relative inline-flex items-center justify-center px-6 py-2.5 text-sm font-semibold text-white bg-linear-to-r from-blue-600 to-indigo-600 rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(59,130,246,0.4)] active:scale-95">
+  <a href="/contacto" class="relative inline-flex items-center justify-center px-6 py-2.5 text-sm font-semibold text-white bg-linear-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 rounded-full overflow-hidden transition-all hover:shadow-[0_0_20px_rgba(59,130,246,0.4)]">
     Contacto
   </a>
 </nav>

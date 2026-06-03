@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   import Software from "$lib/components/Software.svelte";
   import Tarjetadehabilidades from "$lib/components/Tarjetadehabilidades.svelte";
   import Icon from "@iconify/svelte";
@@ -27,7 +29,7 @@
 </section>
 
 <section
-  class="flex gap-8 items-center px-6 py-20 bg-transparent text-white border border-neutral-600/40"
+  class="flex gap-10 items-center px-6 py-20 bg-transparent text-white border border-neutral-600/40"
 >
   <div class="space-y-8">
     <p class="text-5xl font-black uppercase tracking-wider text-white px-17">
@@ -42,25 +44,24 @@
     />
   </div>
 
-  <div class="space-y-7">
-    <div class="">
-      <p class="max-w-lg text-neutral-400">
+  <div class="space-y-7 ">
+      <p class="max-w-lvh text-neutral-300 space-x-5">
         Empece en el mundo de edicion por curiosidad y por querer aprender algo
         nuevo, percatándome de que es algo q me gusta, empecé a realizar
         trabajos pequeños y ya hace aproximadamente 2 años y 7 meses trabajando
         profesionalmente.
       </p>
-    </div>
+    
     <div class="">
       <div>
-        <p class="max-w-lg">2014-2018</p>
-        <p>inicios en montaje documental y colorimetrica basica</p>
+        <p class="">2014-2018</p>
+        <p>inicios en montaje documental y colorimetrica basica.</p>
       </div>
       <div>
         <p>2019- presente</p>
         <p>
           especialización en postproducción técnica y narrativa para marcas
-          globales
+          globales.
         </p>
       </div>
     </div>
@@ -68,11 +69,11 @@
 
 </section>
 
-<section>
-  <div>
+<section class="border border-neutral-600/40">
+  <div class="py-8 px-15 text-4xl font-bold ">
     <p>HABILIDADES</p>
   </div>
-  <div>
+  <div class="grid grid-cols-3 px-12">
     <Tarjetadehabilidades
       titulo="Manejo de plataformas"
       descripcion="Domino las herramientas líderes de la industria audiovisual, con un manejo experto de Adobe Premiere Pro y CapCut. Más allá de conocer el software, optimizo cada flujo de trabajo técnico para garantizar una edición limpia y eficiente adaptada al mercado corporativo."
@@ -96,24 +97,25 @@
   </div>
 </section>
 
-<section>
+<section class="flex gap-10 py-20 px-8 border border-neutral-600/40">
   <div>
-    <p>SOFTWARE</p>
-    <p>
+    <p class="text-4xl font-bold">SOFTWARE</p>
+    <p class="py-7">
       Domino absoluto de las herramientas estandar que definen el cine
-      contemporaneo
+      contemporaneo.
     </p>
   </div>
-  <div>
-    <Software numero="01" texto="PREMIERE PRO" />
-    <Software numero="02" texto="CAPCUT PRO" />
+  <div class="flex gap-22 px-18 py-6 ">
+    <p class="">CAPCUT PRO</p>
+    <p>PREMIERE PRO</p>
+    <p>AFTER EFFECTS</p>
   </div>
 </section>
 
 <section>
   <div>
     <p>Trabajos relacionados</p>
-    <img src="/original.webp" alt="" />
+    <img src="" alt="" />
   </div>
 
   <div>

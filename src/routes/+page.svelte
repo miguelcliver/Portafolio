@@ -112,15 +112,19 @@
   </div>
 </section>
 
-<section>
-  <div>
+<section class="flex">
+  <div class="flex-1">
     <p>Trabajos relacionados</p>
-    <img src="" alt="" />
+    
+    <video controls class="h-300 w-full object-cover">
+      <source src="/video-page.mp4">
+    </video>
   </div>
 
-  <div>
-    <a href="/work">ver archivo completo</a>
+  <div class="flex-1">
+    
     <div>
+      <a href="/work">ver archivo completo</a>
       <p>Ritmo cinematico</p>
       <p>una exploracion de movimientos y magia</p>
       <button>

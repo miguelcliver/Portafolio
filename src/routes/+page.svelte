@@ -8,7 +8,7 @@
 
 <section class="px-9 py-8 border border-neutral-600/40">
   <p
-    class="text-5xl md:text-7xl lg:text-8xl font-black uppercase text-left text-white tracking-tighter leading-[0.85] "
+    class="text-5xl md:text-7xl lg:text-8xl font-black uppercase text-left text-white tracking-tighter leading-[0.85]"
   >
     Editor de video <br />
     <span
@@ -42,13 +42,13 @@
     <p class="text-5xl font-black uppercase tracking-wider text-white px-17">
       Mi historia
     </p>
-    
+
     <img
       src="/mi-historia.jpeg"
       alt="foto"
       width="500"
       height="500"
-      class="rounded-3xl  "
+      class="rounded-3xl"
     />
   </div>
 
@@ -108,38 +108,59 @@
   </div>
 </section>
 
-<section class="flex gap-10 py-20 px-8 border border-neutral-600/40">
-  <div>
-    <p class="text-4xl font-bold">SOFTWARE</p>
-    <p class="py-7">
-      Domino absoluto de las herramientas estandar que definen el cine
-      contemporaneo.
+<section class="py-20 px-8 border border-neutral-600/40">
+  <div class="flex flex-col items-center gap-12">
+    <p
+      class="font-sans text-4xl font-extrabold tracking-wider text-white md:text-5xl uppercase text-center"
+    >
+      SOFTWARE
     </p>
-  </div>
-  <div class="flex gap-22 px-18 py-6">
-    <p class="">CAPCUT PRO</p>
-    <p>PREMIERE PRO</p>
-    <p>AFTER EFFECTS</p>
+
+    <div class="flex gap-22 px-21 py-10">
+      <div
+        class="flex items-center justify-center rounded-xl border border-cyan-500/40 bg-[#121214] px-8 py-10 shadow-[inset_0_0_20px_rgba(6,182,212,0.08)]"
+      >
+        <p class=" ">CAPCUT PRO</p>
+      </div>
+      <div
+        class="flex items-center justify-center rounded-xl border border-purple-600/40 bg-[#121214] px-8 py-10 shadow-[inset_0_0_20px_rgba(147,51,234,0.08)]"
+      >
+        <p>PREMIERE PRO</p>
+      </div>
+      <div
+        class="flex items-center justify-center rounded-xl border border-indigo-500/40 bg-[#121214] px-8 py-10 shadow-[inset_0_0_20px_rgba(99,102,241,0.08)]"
+      >
+        <p>AFTER EFFECTS</p>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="flex">
-  <div class="flex-1">
-    <p>Trabajos relacionados</p>
-
-    <video controls class="h-300 w-full object-cover">
+<section class="w-full px-6 py-20 text-white md:px-16 lg:px-24">
+  <div class="mx-auto max-w-6xl flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-center">
+    
+<div class="relative aspect-9/16 w-full max-w-85 mx-auto overflow-hidden rounded-4xl border border-white/10 bg-[#121214] shadow-[0_0_50px_rgba(147,51,234,0.2)]">
+    <video controls class="h-full w-full object-cover">
       <source src="/video-page.mp4" />
     </video>
   </div>
-
-  <div class="flex-1">
-    <div>
-      <a href="/work">ver archivo completo</a>
-      <p>Ritmo cinematico</p>
-      <p>una exploracion de movimientos y magia</p>
+  
+  <div class="w-full lg:w-6/12 flex flex-col justify-center">
+  <div class="rounded-[28px] border border-purple-600/10 bg-[#121214]/90 p-8 md:p-10 shadow-[inset_0_0_30px_rgba(147,51,234,0.03)] space-y-8 backdrop-blur-md">
+    <div class="">
+      <p class=" text-xl font-bold tracking-widest uppercase">Trabajos destacados</p>
+      <a href="/work" class="inline-flex items-center gap-2 font-mono text-xs font-bold tracking-widest text-purple-400 hover:text-purple-300 transition-colors uppercase">ver archivo completo</a>
+      <div class="space-y-4">
+      <p class="font-sans text-4xl font-black tracking-wide uppercase leading-none md:text-5xl">Ritmo cinematico</p>
+      <p class="font-sans text-sm  leading-relaxe max-w-sm">una exploracion de movimientos y magia</p>
+    </div>
+    
       <button>
+      
         <Icon icon="mdi:play" width={32} height={32} />
       </button>
     </div>
   </div>
+  </div>
+</div>
 </section>

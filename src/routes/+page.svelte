@@ -6,9 +6,9 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<section class="px-9 py-8 border border-neutral-600/40">
+<section class="px-9 py-8 border border-neutral-600/40 text-white">
   <p
-    class="text-5xl md:text-7xl lg:text-8xl font-black uppercase text-left text-white tracking-tighter leading-[0.85]"
+    class="text-5xl md:text-7xl lg:text-8xl font-black uppercase text-left tracking-tighter leading-[0.85]"
   >
     Editor de video <br />
     <span
@@ -39,7 +39,7 @@
   class="flex gap-12 items-center px-10 py-20 bg-transparent text-white border border-neutral-600/40"
 >
   <div class="space-y-8">
-    <p class="text-5xl font-black uppercase tracking-wider text-white px-17">
+    <p class="text-5xl font-black uppercase tracking-wider px-17">
       Mi historia
     </p>
 
@@ -108,10 +108,10 @@
   </div>
 </section>
 
-<section class="py-20 px-8 border border-neutral-600/40">
+<section class="py-20 px-8 border border-neutral-600/40 text-white">
   <div class="flex flex-col items-center gap-12">
     <p
-      class="font-sans text-4xl font-extrabold tracking-wider text-white md:text-5xl uppercase text-center"
+      class="font-sans text-4xl font-extrabold tracking-wider  md:text-5xl uppercase text-center"
     >
       SOFTWARE
     </p>
@@ -137,30 +137,40 @@
 </section>
 
 <section class="w-full px-6 py-20 text-white md:px-16 lg:px-24">
-  <div class="mx-auto max-w-6xl flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-center">
-    
-<div class="relative aspect-9/16 w-full max-w-85 mx-auto overflow-hidden rounded-4xl border border-white/10 bg-[#121214] shadow-[0_0_50px_rgba(147,51,234,0.2)]">
-    <video controls class="h-full w-full object-cover">
-      <source src="/video-page.mp4" />
-    </video>
-  </div>
-  
-  <div class="w-full lg:w-6/12 flex flex-col justify-center">
-  <div class="rounded-[28px] border border-purple-600/10 bg-[#121214]/90 p-8 md:p-10 shadow-[inset_0_0_30px_rgba(147,51,234,0.03)] space-y-8 backdrop-blur-md">
-    <div class="">
-      <p class=" text-xl font-bold tracking-widest uppercase">Trabajos destacados</p>
-      <a href="/work" class="inline-flex items-center gap-2 font-mono text-xs font-bold tracking-widest text-purple-400 hover:text-purple-300 transition-colors uppercase">ver archivo completo</a>
-      <div class="space-y-4">
-      <p class="font-sans text-4xl font-black tracking-wide uppercase leading-none md:text-5xl">Ritmo cinematico</p>
-      <p class="font-sans text-sm  leading-relaxe max-w-sm">una exploracion de movimientos y magia</p>
+  <div
+    class="mx-auto max-w-6xl flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-center"
+  >
+    <div
+      class="relative aspect-9/16 w-full max-w-85 mx-auto overflow-hidden rounded-4xl border border-white/10 bg-[#121214] shadow-[0_0_50px_rgba(147,51,234,0.2)]"
+    >
+      <video controls class="h-full w-full object-cover"
+      loading="lazy">
+        <source src="/video-page.mp4" />
+      </video>
     </div>
-    
-      <button>
-      
-        <Icon icon="mdi:play" width={32} height={32} />
-      </button>
+
+    <div class="w-full lg:w-6/12 flex flex-col justify-center">
+      <div
+        class="rounded-[28px] border border-purple-600/10 bg-[#121214]/90 p-8 md:p-10 shadow-[inset_0_0_30px_rgba(147,51,234,0.03)] space-y-8 backdrop-blur-md"
+      >
+        <div class="">
+          <p class=" text-xl font-bold tracking-widest uppercase">
+            Trabajos destacados
+          </p>
+          <a
+            href="/work"
+            class="inline-flex items-center gap-2 font-mono text-xs font-bold tracking-widest text-purple-400 hover:text-purple-300 transition-colors uppercase"
+            >ver archivo completo</a
+          >
+          <div class="space-y-4">
+            <p
+              class="font-sans text-4xl font-black tracking-wide uppercase leading-none md:text-5xl"
+            >
+              Ritmo cinematico
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
-</div>
 </section>

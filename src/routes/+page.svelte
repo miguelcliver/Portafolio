@@ -6,49 +6,58 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<section class="px-9 py-8 border border-neutral-600/40 text-white">
+<section class="px-9 py-15 text-white border-0 border-b border-neutral-800 ">
+<div class="flex flex-wrap gap-3 mb-10 select-none">
+  <div class="font-mono text-[12px] font-bold tracking-widest text-[#00F0FF] px-4 py-2.5 rounded-full border border-[#00F0FF]/20 bg-[#00F0FF]/5 backdrop-blur-sm cursor-default flex items-center gap-1.5">
+    ⚡ AVAILABLE FOR WORK
+  </div>
+  <div class="font-mono text-[12px] font-bold tracking-widest text-[#8a8a93] px-4 py-2.5 rounded-full border border-white/5 bg-white/2 backdrop-blur-sm cursor-default flex items-center gap-1.5">
+    🎬 REELS & COMMERCIALS
+  </div>
+</div>
   <p
-    class="text-5xl md:text-7xl lg:text-8xl font-black uppercase text-left tracking-tighter leading-[0.85]"
+    class=" font-sans text-5xl md:text-7xl lg:text-8xl font-black uppercase text-left tracking-tighter leading-[0.85]"
   >
-    Editor de video <br />
-    <span
-      class="bg-linear-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent"
-    >
-      Profesional
-    </span>
+   profesional  video  <br />
+   <span class="bg-linear-to-r from-[#00F0FF] to-[#30cbff] bg-clip-text text-transparent">
+     editor
+   </span>
   </p>
-
-  <div class="flex justify-end">
+  <div class="flex justify-end mt-12">
     <div class="relative pl-8">
       <div
-        class="absolute bottom-4 left-4 top-2 w-0.5 bg-linear-to-b from-blue-600 via-purple-600 to-transparent"
+        class="absolute bottom-4 left-4 top-2 w-0.5 bg-linear-to-b from-blue-600 via-cyan-600 to-transparent"
       ></div>
     </div>
     <div class="relative mb-6">
-      <p class="text-blue-400 pb-4">Michael Montañez</p>
+      <p class="font-mono text-[14px] font-bold text-[#00F0FF] pb-3 uppercase tracking-wider">Michael Montañez</p>
       <p class="max-w-xl text-neutral-200">
         Hola, soy Michael. Ayudo a empresas a comunicar sus ideas con videos
         claros, atractivos y de alta calidad. Si buscas un trabajo profesional,
         puntual y adaptado a tus metas, hagamos equipo en tu próximo proyecto.
       </p>
+      <a href="/work" class="group font-mono text-[12px] font-bold text-[#00F0FF] tracking-wider uppercase inline-flex items-center gap-2 transition-colors duration-300 hover:text-[#9333EA]">
+        VIEW SELECTED WORK 
+        <span class="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
+      </a>
     </div>
   </div>
 </section>
 
 <section
-  class="flex gap-12 items-center px-10 py-20 bg-transparent text-white border border-neutral-600/40"
+  class="flex gap-12 items-center px-20 py-15 bg-transparent text-white "
 >
-  <div class="space-y-8">
-    <p class="text-5xl font-black uppercase tracking-wider px-17">
+  <div class="space-y-7 space-x-2">
+    <p class="text-5xl font-black uppercase tracking-wider px-10">
       Mi historia
     </p>
 
     <img
       src="/mi-historia.jpeg"
       alt="foto"
-      width="500"
-      height="500"
-      class="rounded-3xl"
+      width="400"
+      height="400"
+      class="rounded-3xl border border-neutral-700 "
     />
   </div>
 
@@ -62,15 +71,15 @@
 
     <div class="relative pl-8">
       <div
-        class="absolute -bottom-4 left-4 top-2 w-0.5 bg-linear-to-b from-blue-600 via-purple-600 to-transparent"
+        class="absolute -bottom-4 left-4 top-2 w-0.5 bg-linear-to-b from-blue-600 via-cyan-600 to-transparent"
       ></div>
 
       <div class="relative mb-6">
-        <p class="text-blue-400">2014-2018</p>
+        <p class="text-[#00F0FF]">2014-2018</p>
         <p>inicios en montaje documental y colorimetrica basica.</p>
       </div>
       <div>
-        <p class="text-blue-400">2019- presente</p>
+        <p class="text-[#00F0FF]">2019- presente</p>
         <p>
           especialización en postproducción técnica y narrativa para marcas
           globales.
@@ -80,31 +89,30 @@
   </div>
 </section>
 
-<section class="border border-neutral-600/40">
-  <div class="py-8 px-15 text-4xl font-bold">
+<section class="w-full bg-[#050508] text-white border-t border-white/10 py-16">
+  <div class="py-8 px-12 text-4xl font-black uppercase tracking-tighter select-none font-sans text-center ">
     <p>HABILIDADES</p>
   </div>
-  <div class="grid grid-cols-3 px-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12">
+    <div class="">
     <Tarjetadehabilidades
       titulo="Manejo de plataformas"
       descripcion="Domino las herramientas líderes de la industria audiovisual, con un manejo experto de Adobe Premiere Pro y CapCut."
     />
+    </div>
+    <div >
     <Tarjetadehabilidades
       titulo="Adaptacion a diferentes estilos"
       descripcion="Cuento con una alta capacidad de adaptación para moldear el estilo de edición según las necesidades de cada proyecto, ya sea contenido corporativo, publicitario o dinámico para redes."
     />
+    </div>
+    <div>
     <Tarjetadehabilidades
       titulo="Conocimientos de tendencias"
       descripcion="Me mantengo a la vanguardia de la industria audiovisual, monitoreando constantemente las tendencias y técnicas actuales de edición en redes sociales. "
     />
-    <Tarjetadehabilidades
-      titulo="Edicion al detalle"
-      descripcion="Trabajo con un enfoque meticuloso y de alta precisión, revisando minuciosamente cada segundo del metraje para corregir pequeños errores o inconsistencias. "
-    />
-    <Tarjetadehabilidades
-      titulo="Gestión del tiempo y cumplimiento de plazos"
-      descripcion="Gestiono cada proyecto con máxima organización, garantizando un flujo de trabajo eficiente que asegura la entrega puntual de tus videos."
-    />
+    </div>
+   
   </div>
 </section>
 

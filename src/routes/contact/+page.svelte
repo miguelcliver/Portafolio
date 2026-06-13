@@ -87,17 +87,90 @@
       </p>
     </div>
     <form class="w-full flex flex-col justify-between">
-    <div class="flex flex-wrap gap-x-6 gap-y-10">
-    <div class="flex flex-col flex-1 min-w-62.5">
-    <label for="name/company" class="font-mono text-[11px] font-bold text-[#00F0FF] uppercase tracking-[0.15em] mb-3">[ NAME / COMPANY ]</label>
-    <input type="text" placeholder="Studio name " required
-    class="bg-transparent border-0 border-b border-[#4a4a52] py-2 font-mono text-[14px] placeholder-[#4a4a52] outline-none transition-colors duration-300 focus:border-[#00F0FF] rounded-none">
-    
+      <div class="flex flex-wrap gap-x-6 gap-y-10">
+        <div class="flex flex-col flex-1 min-w-62.5">
+          <label
+            for="NAME/COMPANY"
+            class="font-mono text-[11px] font-bold text-[#00F0FF] uppercase tracking-[0.15em] mb-3"
+            >[ NAME / COMPANY ]</label
+          >
+          <input
+            type="text"
+            placeholder="Studio name "
+            required
+            class="bg-transparent border-0 border-b border-[#4a4a52] py-2 font-mono text-[14px] placeholder-[#4a4a52] outline-none transition-colors duration-300 focus:border-[#00F0FF] rounded-none"
+          />
+        </div>
+        <div class="flex flex-col flex-1 min-w-62.5">
+          <label
+            for="EMAIL"
+            class="font-mono text-[11px] font-bold text-[#00F0FF] uppercase tracking-[0.15em] mb-3"
+            >[ EMAIL ]</label
+          >
+          <input
+            type="email"
+            placeholder="hello@yourbrand.com"
+            required
+            autocomplete="new-password"
+            class="bg-transparent border-0 border-b border-[#4a4a52] py-2 font-mono text-[14px] text-white placeholder-[#4a4a52] outline-none transition-colors duration-300 focus:border-[#00F0FF] rounded-none
+            autofill:shadow-[inset_0_0_0_1000px_#050508] autofill:text-white"
+          />
+        </div>
+        <div class="flex flex-col w-full">
+          <label
+            for="PROJECT TYPE"
+            class="font-mono text-[11px] font-bold text-[#00F0FF] uppercase tracking-[0.15em] mb-3"
+            >[ PROJECT TYPE ]</label>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 w-full">
+              <label class="cursor-pointer group select-none">
+                <input type="radio" name="project_type" value="reels" class="peer sr-only" checked />
+                <div class="font-mono text-[14px] text-center text-[#8a8a93] py-3 px-4 border bg-white/1 backdrop-blur-sm transition-all duration-300 rounded-none border-b border-[#4a4a52] peer-checked:border-[#339bea] peer-checked:text-[#00F0FF] peer-checked:bg-[#9333EA]/10 peer-checked:shadow-[0_0_15px_rgba(147,51,234,0.15)] hover:border-white/30">
+                  Reels / Shorts / TikToks
+                </div>
+              </label>
+              <label class="cursor-pointer group select-none">
+                <input type="radio" name="project_type" value="commercial" class="peer sr-only" />
+                <div class="font-mono text-[14px] text-center text-[#8a8a93] py-3 px-4 border bg-white/1 backdrop-blur-sm transition-all duration-300 rounded-none border-b border-[#4a4a52] peer-checked:border-[#339bea]  peer-checked:text-[#00F0FF] peer-checked:bg-[#9333EA]/10 peer-checked:shadow-[0_0_15px_rgba(147,51,234,0.15)] hover:border-white/30">
+                  Premium Commercial
+                </div>
+              </label>
+              <label class="cursor-pointer group select-none">
+                <input type="radio" name="project_type" value="corporate" class="peer sr-only" />
+                <div class="font-mono text-[14px] text-center text-[#8a8a93] py-3 px-4 border bg-white/1 backdrop-blur-sm transition-all duration-300 rounded-none border-b border-[#4a4a52] peer-checked:border-[#339bea] peer-checked:text-[#00F0FF] peer-checked:bg-[#9333EA]/10 peer-checked:shadow-[0_0_15px_rgba(147,51,234,0.15)] hover:border-white/30">
+                  Corporate Video
+                </div>
+              </label>
 
-    </div>
+            </div>
+          
 
-    </div>
-
+        </div>
+        <div class="flex flex-col w-full">
+          <label
+            for="PROJECT DETAIL"
+            class="font-mono text-[11px] font-bold text-[#00F0FF] uppercase tracking-[0.15em] mb-3"
+            >[ PROJECT DETAILS ]</label
+          >
+          <textarea
+            placeholder="Concept, references, timeline, budget range..."
+            rows="3"
+            required
+            class="bg-transparent border-0 border-b border-[#4a4a52] py-2 font-mono text-[14px] placeholder-[#4a4a52] outline-none transition-colors duration-300 focus:border-[#00F0FF] rounded-none resize-none"
+          ></textarea>
+        </div>
+        <div class="w-full flex justify-end mt-2">
+          <button
+            type="submit"
+            class="group inline-flex items-center gap-3 bg-linear-to-r from-[#00F0FF] to-[#9333EA] font-sans font-black text-[13px] uppercase tracking-wider px-8 py-3.5 rounded-[28px] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(0,240,255,0.3),0_8px_25px_rgba(147,51,234,0.3)]"
+          >
+            SEND BRIEF
+            <span
+              class="text-sm transition-transform duration-300 group-hover:translate-x-1"
+              >→</span
+            >
+          </button>
+        </div>
+      </div>
     </form>
   </div>
 </section>

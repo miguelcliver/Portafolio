@@ -8,7 +8,7 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<nav class="flex justify-between items-center px-12 py-4">
+<nav class="flex justify-between items-center px-12 py-4 ">
   <p class="text-xl font-black tracking-wider text-white">MIKE <span class="bg-linear-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">EDITOR</span></p>
 
   <div class="flex items-center gap-8 bg-white/3 px-6 py-2.5 rounded-full border border-white/10 backdrop-blur-xl">

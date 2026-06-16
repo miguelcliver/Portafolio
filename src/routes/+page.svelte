@@ -32,7 +32,7 @@
     <div class="relative mb-6">
       <p class="font-mono text-[14px] font-bold text-[#00F0FF] pb-3 uppercase tracking-wider">Michael Montañez</p>
       <p class="max-w-xl text-neutral-200">
-        Hola, soy Michael. Ayudo a empresas a comunicar sus ideas con videos claros, atractivos y de alta calidad. Si buscas un trabajo profesional, puntual y adaptado a tus metas, hagamos equipo en tu próximo proyecto.
+        Hola, soy Michael  Ayudo a empresas a comunicar sus ideas con videos claros, atractivos y de alta calidad. Si buscas un trabajo profesional, puntual y adaptado a tus metas, hagamos equipo en tu próximo proyecto.
       </p>
       <a href="/work" class="group font-mono text-[12px] font-bold text-[#00F0FF] tracking-wider uppercase inline-flex items-center gap-2 transition-colors duration-300 hover:text-blue-300 ">
         VER TRABAJOS SELECCIONADOS

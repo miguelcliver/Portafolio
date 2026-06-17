@@ -5,6 +5,7 @@
   let concepto = $state()
 
   function EnviarPropuesta () {
+    console.log(nombreEmpresa, email, concepto)
     window.open(`https://api.whatsapp.com/send/?phone=584244315969&text=Hola, le escribe ${nombreEmpresa} - ${email}, ${concepto}`)
   }
 

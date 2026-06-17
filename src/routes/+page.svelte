@@ -6,17 +6,17 @@
   import Icon from "@iconify/svelte";
 </script>
 
-<section class="px-20 py-15 text-white border-0 border-b border-neutral-800 ">
-<div class="flex flex-wrap gap-3 mb-10 select-none">
-  <div class="font-mono text-[12px] font-bold tracking-widest text-[#00F0FF] px-4 py-2.5 rounded-full border border-[#00F0FF]/20 bg-[#00F0FF]/5 backdrop-blur-sm cursor-default flex items-center gap-1.5">
+<section class="px-6 md:px-20 py-12 md:py-15 text-white border-0 border-b border-neutral-800 ">
+<div class="flex flex-wrap gap-3 mb-8 md:mb-10 select-none">
+  <div class="font-mono text-[11px] md:text-[12px] font-bold tracking-widest text-[#00F0FF] px-3 md:px-4 py-2 rounded-full border border-[#00F0FF]/20 bg-[#00F0FF]/5 backdrop-blur-sm cursor-default flex items-center gap-1.5 home-badge">
     ⚡ DISPONIBLE PARA TRABAJAR
   </div>
-  <div class="font-mono text-[12px] font-bold tracking-widest text-[#8a8a93] px-4 py-2.5 rounded-full border border-white/5 bg-white/2 backdrop-blur-sm cursor-default flex items-center gap-1.5">
+  <div class="font-mono text-[11px] md:text-[12px] font-bold tracking-widest text-[#8a8a93] px-3 md:px-4 py-2 rounded-full border border-white/5 bg-white/2 backdrop-blur-sm cursor-default flex items-center gap-1.5 home-badge">
     🎬 REELS & COMMERCIALS
   </div>
 </div>
   <p
-    class=" font-sans text-5xl md:text-7xl lg:text-8xl font-black uppercase text-left tracking-tighter leading-[0.85]"
+    class=" font-sans text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black uppercase text-left tracking-tighter leading-[0.9] sm:leading-[0.85]"
   >
    profesional  video  <br />
    <span class="bg-linear-to-r from-[#00F0FF] to-[#30cbff] bg-clip-text text-transparent">

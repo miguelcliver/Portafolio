@@ -1,3 +1,16 @@
+<script>
+
+  let nombreEmpresa = $state()
+  let email = $state()
+  let concepto = $state()
+
+  function EnviarPropuesta () {
+    console.log(nombreEmpresa, email, concepto)
+    window.open(`https://api.whatsapp.com/send/?phone=584244315969&text=Hola, le escribe ${nombreEmpresa} - ${email}, ${concepto}`)
+  }
+
+</script>
+
 <section class=" text-white px-20 pt-10 pb-12 md:px-16 lg:px-24 w-full  border-0 border-b border-neutral-800">
   <div class=" flex flex-col">
     <p
@@ -81,7 +94,7 @@
         Cuéntanos la historia que quieres contar. Respondemos personalmente a cada solicitud en un plazo de un día hábil.
       </p>
     </div>
-    <form class="w-full flex flex-col justify-between">
+    <form class="w-full flex flex-col justify-between" onsubmit={EnviarPropuesta}>
       <div class="flex flex-wrap gap-x-6 gap-y-10">
         <div class="flex flex-col flex-1 min-w-62.5">
           <label
@@ -93,6 +106,7 @@
             type="text"
             placeholder="Nombre de la empresa "
             required
+            bind:value={nombreEmpresa}
             class="bg-transparent border-0 border-b border-[#4a4a52] py-2 font-mono text-[14px] placeholder-[#4a4a52] outline-none transition-colors duration-300 focus:border-[#00F0FF] rounded-none"
           />
         </div>
@@ -106,6 +120,7 @@
             type="email"
             placeholder="hello@yourbrand.com"
             required
+            bind:value={email}
             autocomplete="new-password"
             class="bg-transparent border-0 border-b border-[#4a4a52] py-2 font-mono text-[14px] text-white placeholder-[#4a4a52] outline-none transition-colors duration-300 focus:border-[#00F0FF] rounded-none
             autofill:shadow-[inset_0_0_0_1000px_#050508] autofill:text-white"
@@ -150,6 +165,7 @@
             placeholder="Concepto, referencias, cronograma, rango de presupuesto..."
             rows="3"
             required
+            bind:value={concepto}
             class="bg-transparent border-0 border-b border-[#4a4a52] py-2 font-mono text-[14px] placeholder-[#4a4a52] outline-none transition-colors duration-300 focus:border-[#00F0FF] rounded-none resize-none"
           ></textarea>
         </div>
